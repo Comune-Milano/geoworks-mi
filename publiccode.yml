@@ -1,0 +1,83 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - business-process-management
+  - geographic-information-systems
+dependsOn:
+  proprietary:
+    - name: GEO.works
+      optional: false
+      version: 4.4.0.0
+      versionMax: 4.x
+      versionMin: 4.4.0.0
+description:
+  it:
+    features:
+      - Moduli elencati in descrizione
+    genericName: 'Geoworks-Mi Configuration settings '
+    longDescription: |
+      File di configurazione relativi ai moduli della piattaforma GEO.works
+      sviluppati per il Comune di Milano. I file, in formato JSON, sono
+      interpretati dalla piattaforma in cui possono essere importati mediante
+      apposita funzione. I moduli sviluppati per il Comune di Milano in
+      particolare i moduli riguardano:
+
+
+      - Avvisi di intervento su suolo pubblico con e senza scavo
+
+
+      - Manomissioni su suolo pubblico con scavo
+
+
+      - Avvisi di emergenza
+
+
+      - Proroghe avvisi e manomissioni
+
+
+      - Sopralluoghi e occupazione del suolo pubblico
+    shortDescription: 'Moduli Geoworks per il Comune di Milano (configuration files) '
+developmentStatus: stable
+inputTypes:
+  - application/json
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: true
+    spid: true
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Comune di Milano
+  repoOwner: Comune di Milano
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - email: gianluca.alfieri@comune.milano.it
+      name: Gianluca Alfieri
+      phone: '+390288462445'
+  contractors:
+    - name: Berenice International Group
+      until: '2021-11-30'
+      website: 'http://www.berenice.it'
+  type: contract
+name: Geoworks-Mi Configuration settings
+platforms:
+  - web
+  - windows
+releaseDate: '2020-09-10'
+softwareType: configurationFiles
+softwareVersion: 4.4.0.0
+url: 'https://github.com/Comune-Milano/geoworks-mi'
