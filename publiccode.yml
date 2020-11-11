@@ -55,6 +55,8 @@ it:
     cie: false
     pagopa: true
     spid: true
+  riuso:
+    codiceIPA: c_f205
 legal:
   license: EUPL-1.2
   mainCopyrightOwner: Comune di Milano
